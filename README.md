@@ -1,15 +1,31 @@
-Patient Management Microservices Platform
-A high-performance, event-driven microservices ecosystem built with Spring Boot 3 and Java 21. This project demonstrates advanced backend engineering, implementing Infrastructure as Code (IaC) via AWS CDK and localized cloud simulation through LocalStack.
+# Patient Management System
 
-🏗 System Architecture
-The platform is designed with a decentralized architecture, ensuring scalability and fault tolerance. Services communicate asynchronously via Apache Kafka to maintain eventual consistency.
+**Patient Management System** is a microservices-based healthcare backend platform designed to manage patient data, authentication, billing, and analytics in a scalable and modular way.  
+The system follows modern backend engineering practices and is suitable for learning, experimentation, and production-oriented system design.
 
-API Gateway: Central entry point using Spring Cloud Gateway for request routing, and path filtering.
+---
 
-Auth Service: Secure identity management using JWT and BCrypt password encoding.
+## ✨ Key Features
 
-Patient Service: Manages core patient records with PostgreSQL and Spring Data JPA.
+- **Microservices Architecture**  
+  Independent services for authentication, patient management, billing, and analytics.
 
-Analytics Service: Consumes Kafka events to generate real-time metrics and health trends.
+- **API Gateway**  
+  Centralized entry point that routes requests to internal services.
 
-Infrastructure (CDK): Automates the provisioning of a custom VPC, Application Load Balancers (ALB), and MSK (Kafka) clusters.
+- **Authentication & Authorization**  
+  Secure user authentication with role-based access control.
+
+- **Patient Management Service**  
+  CRUD operations for patient profiles and related data.
+
+- **Billing Service**  
+  Handles billing records, invoices, and payment-related operations.
+
+- **Analytics Service**  
+  Provides system-level insights and operational metrics.
+
+- **Integration Testing**  
+  End-to-end tests to validate cross-service interactions.
+
+---
