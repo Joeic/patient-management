@@ -1,7 +1,3 @@
-It's great to see your project reach this milestone! Your resume already looks very strong with those high-impact projects. Replacing the older "Wrap" project with this Spring Boot Microservices project will significantly boost your profile for Backend or Distributed Systems roles.
-
-Below is the README.md for your project, designed to highlight the sophisticated cloud-native and architectural choices you've made.
-
 Patient Management Microservices Platform
 A high-performance, event-driven microservices ecosystem built with Spring Boot 3 and Java 21. This project demonstrates advanced backend engineering, implementing Infrastructure as Code (IaC) via AWS CDK and localized cloud simulation through LocalStack.
 
