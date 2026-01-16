@@ -5,7 +5,7 @@ The system follows modern backend engineering practices and is suitable for lear
 
 ---
 
-## ✨ Key Features
+## ✨ Services
 
 - **Microservices Architecture**  
   Independent services for authentication, patient management, billing, and analytics.
@@ -13,7 +13,7 @@ The system follows modern backend engineering practices and is suitable for lear
 - **API Gateway**  
   Centralized entry point that routes requests to internal services.
 
-- **Authentication & Authorization**  
+- **Authentication & Authorization Service**  
   Secure user authentication with role-based access control.
 
 - **Patient Management Service**  
