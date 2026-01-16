@@ -29,3 +29,13 @@ The system follows modern backend engineering practices and is suitable for lear
   End-to-end tests to validate cross-service interactions.
 
 ---
+## 🛠 Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Backend Core** | Java 21, Spring Boot 3.5, Spring Cloud 2024+ |
+| **Messaging** | Apache Kafka (AWS MSK simulation) |
+| **Data & Storage** | PostgreSQL, Spring Data JPA, Hibernate |
+| **Infrastructure** | AWS CDK (Java), LocalStack, Docker, Maven |
+| **Security** | Spring Security, JWT, BCrypt |
+| **Testing** | RestAssured, JUnit 5, Reactor Test |
